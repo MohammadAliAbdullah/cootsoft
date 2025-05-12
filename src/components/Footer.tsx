@@ -17,9 +17,8 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           <div>
             <div className="flex items-center mb-4">
-              {/* <Terminal className="h-8 w-8 text-blue-400 mr-2" />
-              <span className="text-xl font-bold">COOTSOFT</span> */}
-              <img src={`${baseUrl}/public/coot_logo.jpg`} alt="Coot Logo" className="h-12 w-[150px]" />
+              <img src={`coot_logo.jpg`} alt="Coot Logo" className="h-12 w-[150px]" />
+              {/* <img src={`${baseUrl}/public/coot_logo.jpg`} alt="Coot Logo" className="h-12 w-[150px]" /> */}
             </div>
             <p className="text-gray-400 mb-6">
               Providing powerful business software solutions that streamline operations and boost your bottom line.
