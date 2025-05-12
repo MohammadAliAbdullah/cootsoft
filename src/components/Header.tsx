@@ -38,7 +38,8 @@ const Header = () => {
         >
           {/* <Code size={32} className="text-primary-800" /> */}
           {/* <span className="text-xl font-bold">Cootsoft</span> */}
-          <img src={`${baseUrl}/public/coot_logo.jpg`} alt="Coot Logo" className="h-12 w-[150px]" />
+          {/* <img src={`${baseUrl}/public/coot_logo.jpg`} alt="Coot Logo" className="h-12 w-[150px]" /> */}
+          <img src={`coot_logo.jpg`} alt="Coot Logo" className="h-12 w-[150px]" />
         </Link>
 
         {/* Desktop Navigation */}
@@ -56,8 +57,8 @@ const Header = () => {
             </button>
             <div
               className={`absolute left-0 w-48 mt-2 origin-top-left bg-white divide-y divide-gray-100 rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none transition-all duration-200 transform ${isProductsOpen
-                  ? 'opacity-100 scale-100'
-                  : 'opacity-0 scale-95 pointer-events-none'
+                ? 'opacity-100 scale-100'
+                : 'opacity-0 scale-95 pointer-events-none'
                 }`}
             >
               <div className="py-1">
