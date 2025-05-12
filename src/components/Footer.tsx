@@ -10,15 +10,16 @@ const Footer = () => {
   };
 
   const currentYear = new Date().getFullYear();
-
+  const baseUrl = window.location.origin;
   return (
     <footer className="bg-gray-900 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           <div>
             <div className="flex items-center mb-4">
-              <Terminal className="h-8 w-8 text-blue-400 mr-2" />
-              <span className="text-xl font-bold">COOTSOFT</span>
+              {/* <Terminal className="h-8 w-8 text-blue-400 mr-2" />
+              <span className="text-xl font-bold">COOTSOFT</span> */}
+              <img src={`${baseUrl}/public/coot_logo.jpg`} alt="Coot Logo" className="h-12 w-[150px]" />
             </div>
             <p className="text-gray-400 mb-6">
               Providing powerful business software solutions that streamline operations and boost your bottom line.
@@ -38,7 +39,7 @@ const Footer = () => {
               </a>
             </div>
           </div>
-          
+
           <div>
             <h3 className="font-semibold text-lg mb-4">Products</h3>
             <ul className="space-y-2">
@@ -68,12 +69,12 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          
+
           <div>
             <h3 className="font-semibold text-lg mb-4">Company</h3>
             <ul className="space-y-2">
               <li>
-                <button 
+                <button
                   onClick={() => scrollToSection('home')}
                   className="text-gray-400 hover:text-white transition-colors flex items-center"
                 >
@@ -88,7 +89,7 @@ const Footer = () => {
                 </button>
               </li>
               <li>
-                <button 
+                <button
                   onClick={() => scrollToSection('testimonials')}
                   className="text-gray-400 hover:text-white transition-colors flex items-center"
                 >
@@ -104,12 +105,12 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          
+
           <div>
             <h3 className="font-semibold text-lg mb-4">Support</h3>
             <ul className="space-y-2">
               <li>
-                <button 
+                <button
                   onClick={() => scrollToSection('contact')}
                   className="text-gray-400 hover:text-white transition-colors flex items-center"
                 >
@@ -138,7 +139,7 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        
+
         <div className="border-t border-gray-800 pt-8 mt-8">
           <div className="md:flex md:items-center md:justify-between">
             <div className="text-sm text-gray-400">
