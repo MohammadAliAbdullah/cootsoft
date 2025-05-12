@@ -45,32 +45,32 @@ const ProductDetailPage = () => {
   return (
     <div>
       {/* Hero Section */}
-      <section className="relative bg-primary-800 text-white py-16">
+      <section className="inset-0 bg-secondary-100 from-blue-50 to-white py-16 md:py-20 py-16 md:py-20">
         <div className="container">
           <motion.button
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
-            className="flex items-center text-white/80 hover:text-white mb-6"
+            className="flex items-center text-red-800 hover:text-gray-900 mt-10"
             onClick={() => navigate('/products')}
           >
             <ChevronLeft size={20} className="mr-1" />
             Back to Products
           </motion.button>
-          
+
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="text-3xl md:text-4xl font-bold mb-4"
+            className="text-3xl md:text-4xl font-bold mt-6"
           >
             {product.name}
           </motion.h1>
-          
+
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.1 }}
-            className="text-xl text-white/80 max-w-3xl"
+            className="text-xl text-gray-800 max-w-3xl"
           >
             {product.shortDescription}
           </motion.p>

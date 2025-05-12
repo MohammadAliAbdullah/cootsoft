@@ -7,14 +7,14 @@ const ContactPage = () => {
   return (
     <div>
       {/* Hero Section */}
-      <section className="bg-primary-800 text-white py-16 md:py-20">
+      <section className="inset-0 bg-secondary-100 from-blue-50 to-white py-16 md:py-20 py-16 md:py-20">
         <div className="container">
           <div className="max-w-3xl">
             <motion.h1
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
-              className="text-3xl md:text-4xl font-bold mb-4"
+            className="text-3xl md:text-4xl font-bold mb-4 pt-12 md:pt-16"
             >
               Contact Us
             </motion.h1>
@@ -22,7 +22,7 @@ const ContactPage = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.1 }}
-              className="text-xl text-white/80"
+              className="text-xl text-gray-800"
             >
               Have questions or ready to get started? Reach out to our team and we'll be happy to help.
             </motion.p>

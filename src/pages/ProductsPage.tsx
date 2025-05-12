@@ -24,14 +24,14 @@ const ProductsPage = () => {
   return (
     <div>
       {/* Hero Section */}
-      <section className="bg-primary-800 text-white py-16 md:py-20">
+      <section className="inset-0 bg-secondary-100 from-blue-50 to-white py-16 md:py-20 py-16 md:py-20">
         <div className="container">
           <div className="max-w-3xl">
             <motion.h1
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
-              className="text-3xl md:text-4xl font-bold mb-4"
+              className="text-3xl md:text-4xl font-bold mb-4 pt-12 md:pt-16"
             >
               Our Software Solutions
             </motion.h1>
@@ -39,7 +39,7 @@ const ProductsPage = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.1 }}
-              className="text-xl text-white/80"
+              className="text-xl text-gray-800"
             >
               Discover our comprehensive range of professional software solutions designed to address the unique needs of your business.
             </motion.p>
@@ -57,11 +57,10 @@ const ProductsPage = () => {
                 <li key={category.id}>
                   <button
                     onClick={() => handleCategoryChange(category.id)}
-                    className={`px-4 py-2 text-sm md:text-base font-medium rounded-t-lg transition-colors ${
-                      activeCategory === category.id
+                    className={`px-4 py-2 text-sm md:text-base font-medium rounded-t-lg transition-colors ${activeCategory === category.id
                         ? 'bg-white text-primary-700 shadow-sm'
                         : 'text-neutral-600 hover:text-primary-600'
-                    }`}
+                      }`}
                   >
                     {category.label}
                   </button>

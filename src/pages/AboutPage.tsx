@@ -30,22 +30,24 @@ const AboutPage = () => {
   return (
     <div>
       {/* Hero Section */}
-      <section className="bg-primary-800 text-white py-16 md:py-20">
+      <section className="inset-0 bg-secondary-100 from-blue-50 to-white py-16 md:py-20 py-16 md:py-20">
+        {/* <div className="absolute inset-0 bg-gradient-to-br from-blue-50 to-white z-0"></div>
+        <div className="absolute right-0 top-1/2 -translate-y-1/2 w-1/2 h-3/4 bg-blue-100 rounded-l-full opacity-20 blur-3xl"></div> */}
         <div className="container">
           <div className="max-w-3xl">
             <motion.h1
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
-              className="text-3xl md:text-4xl font-bold mb-4"
+              className="text-3xl md:text-4xl font-bold mb-4 pt-12 md:pt-16"
             >
-              About Cootsoft
+              About COOTSOFT
             </motion.h1>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.1 }}
-              className="text-xl text-white/80"
+              className="text-xl text-gray-800"
             >
               We're a team of passionate technology experts committed to creating innovative software solutions for businesses.
             </motion.p>
@@ -111,7 +113,7 @@ const AboutPage = () => {
                 We strive for excellence in every aspect of our work, from code quality to customer service and documentation.
               </p>
             </motion.div>
-            
+
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -127,7 +129,7 @@ const AboutPage = () => {
                 We constantly explore new technologies and methodologies to ensure our solutions remain cutting-edge and effective.
               </p>
             </motion.div>
-            
+
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -143,7 +145,7 @@ const AboutPage = () => {
                 We believe in the power of teamwork, both within our company and in partnership with our clients and other stakeholders.
               </p>
             </motion.div>
-            
+
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -159,7 +161,7 @@ const AboutPage = () => {
                 Our clients can depend on us to deliver high-quality solutions on time and provide ongoing support they can trust.
               </p>
             </motion.div>
-            
+
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -175,7 +177,7 @@ const AboutPage = () => {
                 We recognize that each client is unique, and we tailor our solutions to meet specific needs and challenges.
               </p>
             </motion.div>
-            
+
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
