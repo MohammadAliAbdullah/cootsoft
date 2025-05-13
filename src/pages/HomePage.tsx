@@ -5,6 +5,7 @@ import ProductCard from '../components/ProductCard';
 import products from '../data/products';
 import { CheckCircle, Users, Globe, Server, ShieldCheck, BarChart } from 'lucide-react';
 import Hero from '../components/Hero';
+import Testimonials from '../components/Testimonial';
 
 const HomePage = () => {
   return (
@@ -138,6 +139,8 @@ const HomePage = () => {
           </div>
         </div>
       </AnimatedSection>
+      <Testimonials />
+      {/* Testimonials Section */}
 
       {/* CTA Section */}
       <AnimatedSection className="section bg-primary-800 text-white">
