@@ -40,7 +40,7 @@ const Footer = () => {
           </div>
 
           <div>
-            <h3 className="font-semibold text-lg mb-4">Products</h3>
+            <h3 className="font-semibold text-white text-lg mb-4">Products</h3>
             <ul className="space-y-2">
               <li>
                 <button className="text-gray-400 hover:text-white transition-colors flex items-center">
@@ -70,7 +70,7 @@ const Footer = () => {
           </div>
 
           <div>
-            <h3 className="font-semibold text-lg mb-4">Company</h3>
+            <h3 className="font-semibold text-white text-lg mb-4">Company</h3>
             <ul className="space-y-2">
               <li>
                 <button
@@ -106,7 +106,7 @@ const Footer = () => {
           </div>
 
           <div>
-            <h3 className="font-semibold text-lg mb-4">Support</h3>
+            <h3 className="font-semibold text-white text-lg mb-4">Support</h3>
             <ul className="space-y-2">
               <li>
                 <button
