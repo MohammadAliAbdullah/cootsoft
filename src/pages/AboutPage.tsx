@@ -28,22 +28,22 @@ const AboutPage = () => {
     {
       name: 'Mohammad Ali Abdullah',
       position: 'Sr. Developer',
-      image: 'https://images.pexels.com/photos/5384445/pexels-photo-5384445.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      image: 'https://banner2.cleanpng.com/20180628/gkp/kisspng-line-human-behavior-clip-art-graden-5b34af6e46a3e8.9644147915301794382894.jpg',
     },
     {
       name: 'Nurul Islam',
-      position: 'Sr. Developer',
-      image: 'https://images.pexels.com/photos/5384445/pexels-photo-5384445.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      position: 'Developer',
+      image: 'https://banner2.cleanpng.com/20180628/gkp/kisspng-line-human-behavior-clip-art-graden-5b34af6e46a3e8.9644147915301794382894.jpg',
     },
     {
       name: 'Anamul Haque',
-      position: 'Sr. Developer',
-      image: 'https://images.pexels.com/photos/5384445/pexels-photo-5384445.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      position: 'Developer',
+      image: 'https://banner2.cleanpng.com/20180628/gkp/kisspng-line-human-behavior-clip-art-graden-5b34af6e46a3e8.9644147915301794382894.jpg',
     },
     {
       name: 'Farid Akter',
       position: 'UX/UI Designer',
-      image: 'https://images.pexels.com/photos/3756679/pexels-photo-3756679.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      image: 'https://banner2.cleanpng.com/20190730/fig/kisspng-student-information-technology-customer-computer-s-5d401b9b984859.8780436215644824596238.jpg',
     },
   ];
 
