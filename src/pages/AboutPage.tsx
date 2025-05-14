@@ -6,22 +6,42 @@ import { Award, Clock, Users, Globe, Send, Zap } from 'lucide-react';
 const AboutPage = () => {
   const team = [
     {
-      name: 'Sarah Johnson',
+      name: 'Mohammed Abdul Khalil',
       position: 'CEO & Founder',
       image: 'https://images.pexels.com/photos/3796217/pexels-photo-3796217.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     },
     {
-      name: 'Michael Chen',
+      name: 'Yeasin Mirza',
       position: 'CTO',
       image: 'https://images.pexels.com/photos/3782179/pexels-photo-3782179.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     },
     {
-      name: 'Alex Rodriguez',
+      name: 'Sheikh Forid Khan',
       position: 'Lead Developer',
       image: 'https://images.pexels.com/photos/5384445/pexels-photo-5384445.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     },
     {
-      name: 'Jessica Lee',
+      name: 'Shamim Ahamed Bhuiyan',
+      position: 'Busness Analist',
+      image: 'https://images.pexels.com/photos/5384445/pexels-photo-5384445.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    },
+    {
+      name: 'Mohammad Ali Abdullah',
+      position: 'Sr. Developer',
+      image: 'https://images.pexels.com/photos/5384445/pexels-photo-5384445.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    },
+    {
+      name: 'Nurul Islam',
+      position: 'Sr. Developer',
+      image: 'https://images.pexels.com/photos/5384445/pexels-photo-5384445.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    },
+    {
+      name: 'Anamul Haque',
+      position: 'Sr. Developer',
+      image: 'https://images.pexels.com/photos/5384445/pexels-photo-5384445.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    },
+    {
+      name: 'Farid Akter',
       position: 'UX/UI Designer',
       image: 'https://images.pexels.com/photos/3756679/pexels-photo-3756679.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     },
@@ -65,7 +85,7 @@ const AboutPage = () => {
                 Founded in 2015, Cootsoft began with a simple mission: to create powerful, user-friendly software solutions that help businesses operate more efficiently. What started as a small team of three developers has now grown into a diverse company with expertise across multiple technologies and industries.
               </p>
               <p className="text-neutral-600 mb-4">
-                Our founder, Sarah Johnson, recognized a gap in the market for integrated business software that was both powerful and accessible to companies of all sizes. With a background in both technology and business management, she assembled a team of like-minded experts to build solutions that address real-world challenges.
+                Our founder, Mohammad Abdul Khalil, recognized a gap in the market for integrated business software that was both powerful and accessible to companies of all sizes. With a background in both technology and business management, she assembled a team of like-minded experts to build solutions that address real-world challenges.
               </p>
               <p className="text-neutral-600">
                 Today, Cootsoft serves clients worldwide, from small local businesses to large enterprises, all with the same dedication to quality, innovation, and customer satisfaction that has defined us from the beginning.
