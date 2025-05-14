@@ -8,42 +8,42 @@ const AboutPage = () => {
     {
       name: 'Mohammed Abdul Khalil',
       position: 'CEO & Founder',
-      image: 'https://images.pexels.com/photos/3796217/pexels-photo-3796217.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      image: 'https://banner2.cleanpng.com/20180325/oiq/av0x1v6u8.webp',
     },
     {
       name: 'Yeasin Mirza',
       position: 'CTO',
-      image: 'https://images.pexels.com/photos/3782179/pexels-photo-3782179.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      image: 'https://banner2.cleanpng.com/20180325/oiq/av0x1v6u8.webp',
     },
     {
       name: 'Sheikh Forid Khan',
       position: 'Lead Developer',
-      image: 'https://images.pexels.com/photos/5384445/pexels-photo-5384445.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      image: 'https://banner2.cleanpng.com/20180325/oiq/av0x1v6u8.webp',
     },
     {
       name: 'Shamim Ahamed Bhuiyan',
       position: 'Busness Analist',
-      image: 'https://images.pexels.com/photos/5384445/pexels-photo-5384445.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      image: 'https://banner2.cleanpng.com/20180325/oiq/av0x1v6u8.webp',
     },
     {
       name: 'Mohammad Ali Abdullah',
       position: 'Sr. Developer',
-      image: 'https://banner2.cleanpng.com/20180628/gkp/kisspng-line-human-behavior-clip-art-graden-5b34af6e46a3e8.9644147915301794382894.jpg',
+      image: 'https://banner2.cleanpng.com/20180325/oiq/av0x1v6u8.webp',
     },
     {
       name: 'Nurul Islam',
       position: 'Developer',
-      image: 'https://banner2.cleanpng.com/20180628/gkp/kisspng-line-human-behavior-clip-art-graden-5b34af6e46a3e8.9644147915301794382894.jpg',
+      image: 'https://banner2.cleanpng.com/20180325/oiq/av0x1v6u8.webp',
     },
     {
       name: 'Anamul Haque',
       position: 'Developer',
-      image: 'https://banner2.cleanpng.com/20180628/gkp/kisspng-line-human-behavior-clip-art-graden-5b34af6e46a3e8.9644147915301794382894.jpg',
+      image: 'https://banner2.cleanpng.com/20180325/oiq/av0x1v6u8.webp',
     },
     {
       name: 'Farid Akter',
       position: 'UX/UI Designer',
-      image: 'https://banner2.cleanpng.com/20190730/fig/kisspng-student-information-technology-customer-computer-s-5d401b9b984859.8780436215644824596238.jpg',
+      image: 'https://banner2.cleanpng.com/20180325/oiq/av0x1v6u8.webp',
     },
   ];
 
