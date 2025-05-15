@@ -3,16 +3,18 @@ import Button from '../components/Button';
 import AnimatedSection from '../components/AnimatedSection';
 import ProductCard from '../components/ProductCard';
 import products from '../data/products';
-import { CheckCircle, Users, Globe, Server, ShieldCheck, BarChart } from 'lucide-react';
+import { CheckCircle, Users, Globe, Server, ShieldCheck, BarChart, Code, User } from 'lucide-react';
 import Hero from '../components/Hero';
 import Testimonials from '../components/Testimonial';
 
 const HomePage = () => {
+  const languages = ['PHP', 'Laravel', 'Node.js', 'React.js', 'Python'];
+  const clients = ['Petlink', '10bazar', 'Bata', 'Robi'];
+
   return (
     <div>
       <Hero />
       {/* Hero Section */}
-      
 
       {/* Products Section */}
       <AnimatedSection className="section bg-white">
@@ -26,6 +28,64 @@ const HomePage = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {products.map((product, index) => (
               <ProductCard key={product.id} product={product} index={index} />
+            ))}
+          </div>
+        </div>
+      </AnimatedSection>
+
+      {/* Use Language Section */}
+       <AnimatedSection className="section bg-neutral-50">
+        <div className="container">
+          <div className="text-center max-w-3xl mx-auto mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-indigo-800">Technologies We Use</h2>
+            <p className="text-neutral-600">
+              We leverage a variety of cutting-edge technologies to build robust and scalable solutions.
+            </p>
+          </div>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+            {languages.map((language, index) => (
+              <motion.div
+                key={index}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: index * 0.1 }}
+                className="bg-white p-6 rounded-xl shadow-lg transform hover:scale-105 transition-transform duration-300"
+              >
+                <div className="w-12 h-12 bg-indigo-100 text-indigo-600 rounded-lg flex items-center justify-center mb-4 mx-auto">
+                  <Code size={24} />
+                </div>
+                <h3 className="text-lg font-semibold text-center text-indigo-800">{language}</h3>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </AnimatedSection>
+
+      {/* Our Client Section */}
+      <AnimatedSection className="section bg-neutral-80">
+        <div className="container">
+          <div className="text-center max-w-3xl mx-auto mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-purple-800">Our Clients</h2>
+            <p className="text-neutral-600">
+              We are proud to work with a diverse range of clients across various industries.
+            </p>
+          </div>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            {clients.map((client, index) => (
+              <motion.div
+                key={index}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: index * 0.1 }}
+                className="bg-white p-6 rounded-xl shadow-lg transform hover:scale-105 transition-transform duration-300"
+              >
+                <div className="w-12 h-12 bg-purple-100 text-purple-600 rounded-lg flex items-center justify-center mb-4 mx-auto">
+                  <User size={24} />
+                </div>
+                <h3 className="text-lg font-semibold text-center text-purple-800">{client}</h3>
+              </motion.div>
             ))}
           </div>
         </div>
@@ -56,7 +116,7 @@ const HomePage = () => {
                 Our team consists of experienced developers, designers, and industry experts committed to delivering exceptional solutions.
               </p>
             </motion.div>
-            
+
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -72,7 +132,7 @@ const HomePage = () => {
                 We implement rigorous testing and quality assurance processes to ensure reliable, bug-free software solutions.
               </p>
             </motion.div>
-            
+
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -88,7 +148,7 @@ const HomePage = () => {
                 We provide comprehensive support and maintenance services to clients around the world, ensuring smooth operations.
               </p>
             </motion.div>
-            
+
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -104,7 +164,7 @@ const HomePage = () => {
                 Our solutions are designed to scale with your business, accommodating growth and evolving requirements seamlessly.
               </p>
             </motion.div>
-            
+
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -120,7 +180,7 @@ const HomePage = () => {
                 We implement industry-leading security practices to protect your data and ensure compliance with regulations.
               </p>
             </motion.div>
-            
+
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
